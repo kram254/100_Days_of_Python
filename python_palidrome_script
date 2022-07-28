@@ -1,0 +1,39 @@
+# Check if string is palindrome
+def palindromeCheck(S):
+	y = len(S)
+	for x in range(y // 2):
+		
+		# If both left and right characters
+		# are not '?' and they are not equal
+		# it is not possible to make string a palindrome
+
+		if (S[x] != '?' and
+			S[y - x - 1] != '?' and
+			S[x] != S[y - x - 1]):
+			return False
+
+	return True
+
+# Return smallest palindrome string, if possible
+def smallestPalindrome(S):
+	if (not palindromeCheck(S)):
+		return "NO"
+
+	m = len(S)
+	str = list(S)
+	
+	# loop through all characters of the string
+	for j in range(m):
+		if (str[j] == '?'):
+			
+			# if one of character is '?', replace it with another character
+			if (str[m - j - 1] != '?'):
+				str[j] = str[m - j - 1]
+
+			# if both characters are '?', replace them with smallest character 'a'
+			else:
+				str[j] = str[m - j - 1] = 'a'
+
+	# return the result
+	return str
+
