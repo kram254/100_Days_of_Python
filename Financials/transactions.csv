@@ -1,0 +1,21 @@
+ID_Number,First_Name,Last_Name,Address,Date,Amount,debit,credit,Running_Balance,Description
+1,John,Doe,123 Main St,2022-01-01,100,0,100,100,Payment Received
+2,Jane,Doe,456 Oak Ave,2022-01-02,50,0,50,150,Payment Received
+3,John,Doe,123 Main St,2022-01-03,25,25,0,125,Withdrawal
+4,Jane,Doe,456 Oak Ave,2022-01-04,75,0,75,200,Payment Received
+5,John,Doe,123 Main St,2022-01-05,60,60,0,140,Withdrawal
+6,Jane,Doe,456 Oak Ave,2022-01-06,30,0,30,170,Payment Received
+7,John,Doe,123 Main St,2022-01-07,35,35,0,105,Withdrawal
+8,Jane,Doe,456 Oak Ave,2022-01-08,40,0,40,210,Payment Received
+9,John,Doe,123 Main St,2022-01-09,45,45,0,60,Withdrawal
+10,Jane,Doe,456 Oak Ave,2022-01-10,100,0,100,310,Payment Received
+11,John,Doe,123 Main St,2022-01-11,50,50,0,10,Withdrawal
+12,Jane,Doe,456 Oak Ave,2022-01-12,75,0,75,385,Payment Received
+13,John,Doe,123 Main St,2022-01-13,80,80,0,-70,Withdrawal
+14,Jane,Doe,456 Oak Ave,2022-01-14,30,0,30,415,Payment Received
+15,John,Doe,123 Main St,2022-01-15,20,20,0,-90,Withdrawal
+16,Jane,Doe,456 Oak Ave,2022-01-16,100,0,100,315,Payment Received
+17,John,Doe,123 Main St,2022-01-17,150,150,0,165,Withdrawal
+18,Jane,Doe,456 Oak Ave,2022-01-18,125,0,125,440,Payment Received
+19,John,Doe,123 Main St,2022-01-19,200,200,0,365,Withdrawal
+20,Jane,Doe,456 Oak Ave,2022-01-20,300,0,300,740,Payment Received
