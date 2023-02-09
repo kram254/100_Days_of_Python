@@ -1,0 +1,10 @@
+      Compliant Transactions                                                     Fraudulent Transactions                                    
+                   ID_Number      Amount       debit      credit Running_Balance               ID_Number Amount debit credit Running_Balance
+count               20.00000   20.000000   20.000000   20.000000        20.00000                     0.0    0.0   0.0    0.0             0.0
+mean                10.50000   84.500000   33.250000   51.250000       212.25000                     NaN    NaN   NaN    NaN             NaN
+std                  5.91608   68.535431   54.850874   72.635989       195.32345                     NaN    NaN   NaN    NaN             NaN
+min                  1.00000   20.000000    0.000000    0.000000       -90.00000                     NaN    NaN   NaN    NaN             NaN
+25%                  5.75000   38.750000    0.000000    0.000000       103.75000                     NaN    NaN   NaN    NaN             NaN
+50%                 10.50000   67.500000    0.000000   30.000000       167.50000                     NaN    NaN   NaN    NaN             NaN
+75%                 15.25000  100.000000   46.250000   81.250000       327.50000                     NaN    NaN   NaN    NaN             NaN
+max                 20.00000  300.000000  200.000000  300.000000       740.00000                     NaN    NaN   NaN    NaN             NaN
