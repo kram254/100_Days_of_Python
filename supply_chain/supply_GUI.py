@@ -73,14 +73,15 @@ class UserInterface:
         self.add_inventory_button = tk.Button(self.main_window, text='Add inventory item', command=self.add_inventory_item)
         self.add_inventory_button.pack(pady=10)
         
-        self.process_order_button = tk.Button(self.main_window, text='Process order', command=self.process_order)
-        self.process_order_button.pack(pady=10)
-        
+              
         self.track_shipment_button = tk.Button(self.main_window, text='Track shipment', command=self.track_shipment)
         self.track_shipment_button.pack(pady=10)
         
         self.analyze_performance_button = tk.Button(self.main_window, text='Analyze performance', command=self.analyze_performance)
         self.analyze_performance_button.pack(pady=10)
+        
+        self.process_order_button = tk.Button(self.main_window, text='Process order', command=self.process_order)
+        self.process_order_button.pack(pady=10)
         
         self.exit_button = tk.Button(self.main_window, text='Exit', command=self.exit)
         self.exit_button.pack(pady=10)
