@@ -32,40 +32,40 @@ def submit_onboarding_form():
     email_entry.delete(0, tk.END)
     department_combobox.set("")
 
-# Create main window
-root = tk.Tk()
-root.title("Employee Onboarding")
+    # Create main window
+    root = tk.Tk()
+    root.title("Employee Onboarding")
 
-# Create form fields
-first_name_label = ttk.Label(root, text="First Name")
-first_name_entry = ttk.Entry(root)
+    # Create form fields
+    first_name_label = ttk.Label(root, text="First Name")
+    first_name_entry = ttk.Entry(root)
 
-last_name_label = ttk.Label(root, text="Last Name")
-last_name_entry = ttk.Entry(root)
+    last_name_label = ttk.Label(root, text="Last Name")
+    last_name_entry = ttk.Entry(root)
 
-email_label = ttk.Label(root, text="Email")
-email_entry = ttk.Entry(root)
+    email_label = ttk.Label(root, text="Email")
+    email_entry = ttk.Entry(root)
 
-department_label = ttk.Label(root, text="Department")
-department_combobox = ttk.Combobox(root, values=["Sales", "Marketing", "Engineering", "Operations"])
+    department_label = ttk.Label(root, text="Department")
+    department_combobox = ttk.Combobox(root, values=["Sales", "Marketing", "Engineering", "Operations", "IT"])
 
-# Create submit button
-submit_button = ttk.Button(root, text="Submit", command=submit_onboarding_form)
+    # Create submit button
+    submit_button = ttk.Button(root, text="Submit", command=submit_onboarding_form)
 
-# Add form fields and submit button to window
-first_name_label.grid(row=0, column=0, padx=5, pady=5)
-first_name_entry.grid(row=0, column=1, padx=5, pady=5)
+    # Add form fields and submit button to window
+    first_name_label.grid(row=0, column=0, padx=5, pady=5)
+    first_name_entry.grid(row=0, column=1, padx=5, pady=5)
 
-last_name_label.grid(row=1, column=0, padx=5, pady=5)
-last_name_entry.grid(row=1, column=1, padx=5, pady=5)
+    last_name_label.grid(row=1, column=0, padx=5, pady=5)
+    last_name_entry.grid(row=1, column=1, padx=5, pady=5)
 
-email_label.grid(row=2, column=0, padx=5, pady=5)
-email_entry.grid(row=2, column=1, padx=5, pady=5)
+    email_label.grid(row=2, column=0, padx=5, pady=5)
+    email_entry.grid(row=2, column=1, padx=5, pady=5)
 
-department_label.grid(row=3, column=0, padx=5, pady=5)
-department_combobox.grid(row=3, column=1, padx=5, pady=5)
+    department_label.grid(row=3, column=0, padx=5, pady=5)
+    department_combobox.grid(row=3, column=1, padx=5, pady=5)
 
-submit_button.grid(row=4, column=1, padx=5, pady=5)
+    submit_button.grid(row=4, column=1, padx=5, pady=5)
 
-# Start the main event loop
-root.mainloop()
+    # Start the main event loop
+    root.mainloop()
